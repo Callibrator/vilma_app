@@ -1,9 +1,9 @@
 # Vilma Web/Mobile App
 
 <p align="center">
-  <img src="/resources/3.jpg">
-  <img src="/resources/5.jpg">
-  <img src="/resources/4.jpg">
+  <img src="/res/3.jpg">
+  <img src="/res/5.jpg">
+  <img src="/res/4.jpg">
 
 </p>
 
