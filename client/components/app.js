@@ -138,6 +138,7 @@ export default class App extends React.Component {
   render() {
     return ( <Router>
       <Menu_Button menu_function={this.open_menu.bind(this)}/>
+      <div className="full_app_container">
       <div className="header_area"></div>
       <div className="main_app_container">
       <div onClick={this.close_menu.bind(this)} className={this.state.menu_state == "menu_hide"?"gray_overaly__hide":"gray_overaly__show"}></div>
@@ -162,6 +163,7 @@ export default class App extends React.Component {
             <SimpleFooter />
           </Route>
         </Switch>
+      </div>
       </div>
     </Router>
   )

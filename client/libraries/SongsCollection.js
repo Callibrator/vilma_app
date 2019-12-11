@@ -34,6 +34,8 @@ export function sync_songs(){
                 Songs.clear()
 
 
+
+
                 for(i=0;i<data["data"].length;i++){
                   song_name = data["data"][i]
                   song_folder = data["data"][i].split("\\").slice(0, -1).join("\\")
@@ -51,9 +53,18 @@ export function sync_songs(){
 
                   }
 
+
+
                   Songs.insert(song)
 
                 }
+
+                while(Songs.find().count() < i){
+                  //Do Nothing!
+                  
+                }
+
+
 
 
               },
