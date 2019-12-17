@@ -11,6 +11,17 @@ The Application uses MetorJs, ReactJS & GroundDB for local storage.
 
 </p>
 
+# Features
+
+- Play all songs in a specific folder
+- Change Sound Volume
+- Play Specific Song
+- Play next song
+- Play Previous Song
+- Folders List
+- Songs list in a specific folder
+- Search
+
 # Download & Vilma Links
 
 - [Play Store Mobile App](https://play.google.com/store/apps/details?id=com.callibrator.callibrator.vilma)
