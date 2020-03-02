@@ -37,11 +37,11 @@ export function sync_songs(){
 
 
                 for(i=0;i<data["data"].length;i++){
-                  song_name = data["data"][i]
-                  song_folder = data["data"][i].split("\\").slice(0, -1).join("\\")
+                  var d = data["data"][i].replace(/\//g,"\\")
+                  song_name = d
 
+                  song_folder = d.split("\\").slice(0, -1).join("\\")
                   song_folder_name = song_folder.split("\\").pop()
-
 
                   song_name_only = song_name.split("\\").pop().split(".")[0]
 
@@ -61,7 +61,7 @@ export function sync_songs(){
 
                 while(Songs.find().count() < i){
                   //Do Nothing!
-                  
+
                 }
 
 
